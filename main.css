@@ -119,7 +119,9 @@ main{
     flex-basis: 55%;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin-top: -40px;
+    position: relative;
+    top:-40px;
+
     TODO:
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
@@ -129,7 +131,8 @@ aside{
   flex-basis: 20%;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
-    margin-top: -40px;
+    position: relative;
+    top:-40px;
     padding: 10px;
 
     /*
