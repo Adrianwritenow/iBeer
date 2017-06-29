@@ -1,15 +1,10 @@
 /*
-
 FONTS:
-
 'Josefin Sans'
 'Noto Serif'
 'Dancing Script'
-
 COLORS:
-
 light tan: #eeebda
-
 */
 body{
     font-family: 'Noto Serif', serif;
@@ -87,6 +82,7 @@ text-decoration-style:    /*
 #main-navigation{
     background: #444;
     display: flex;
+    justify-content: space-between;
 
 
     /*
@@ -177,8 +173,9 @@ article time{
 }
 article img{
   float: right;
-  width: 40%;
+  width: 46%;
   height: auto;
+  margin-left: 20px;
 
     /*
         TODO:
@@ -204,6 +201,4 @@ font-family: sans-serif;
     background: #333;
     /*
         TODO:
-        - Style the site footer
-    */
-}
+        - Style th
