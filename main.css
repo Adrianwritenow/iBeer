@@ -11,6 +11,7 @@ body{
     line-height: 1.8;
     margin: 0;
     background-color: #eeebda;
+
 }
 h1, h2, h3{
     font-family: "Josefin Sans", sans-serif;
@@ -199,9 +200,15 @@ font-family: sans-serif;
         HINT: Look to the article header;
     */
 }
-#site-footer{
-
+#site-footer {
+  justify-content:center;
+color: white;
     background: #333;
     /*
         TODO:
         - Style th
+/**/
+}
+#site-footer span{
+  display: block;
+text-align: center;}
